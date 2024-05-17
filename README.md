@@ -8,6 +8,8 @@
       ...
 ## How to run:
 
+On the root project, follow these steps.
+
 1. download dependencies
    ```sh
    yarn
