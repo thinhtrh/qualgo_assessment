@@ -14,7 +14,15 @@ On the root project, follow these steps.
    ```sh
    yarn
     ```
+
+   ```sh
+   cd ios && pod install
+    ```
 2. start on development/production env
+   ```sh
+   cd ..
+    ```
+    
    ```sh
    yarn start:dev
     ```
@@ -22,7 +30,7 @@ On the root project, follow these steps.
      ```sh
    yarn start:prod
     ```
-3. run on ios/android device/simulator
+4. run on ios/android device/simulator
    ```sh
    yarn ios
     ```
@@ -30,3 +38,9 @@ On the root project, follow these steps.
    ```sh
    yarn android
     ```
+
+## TODO:
+    - intergrate linter, husky ...
+    - handle error
+    - more features
+    ...
